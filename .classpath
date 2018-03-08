@@ -16,7 +16,11 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src/main/resource"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
 	<classpathentry path="bin/default" kind="output"/>
@@ -28,6 +32,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="D:/install/gradle_user_home/caches/modules-2/files-2.1/jstl/jstl/1.2/9c8b347a8c787654e0debd8bde44c51c6dcbfbfe/jstl-1.2-sources.jar" kind="lib" path="D:/install/gradle_user_home/caches/modules-2/files-2.1/jstl/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="D:/install/gradle_user_home/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.0/5ed1f0010223be93f105cecf272b6acc041ea20e/fastjson-1.2.0-sources.jar" kind="lib" path="D:/install/gradle_user_home/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.0/82ba5597af0d0d9d87d89b370e266b351e95b635/fastjson-1.2.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>

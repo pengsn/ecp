@@ -4,6 +4,10 @@ apply plugin: 'eclipse'
 
 version = '1.0'
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 repositories {
     jcenter()
 }
@@ -11,6 +15,7 @@ repositories {
 dependencies {
 	compile 'org.springframework:spring-webmvc:4.0.6.RELEASE'
 	compile 'jstl:jstl:1.2'
+	compile 'com.alibaba:fastjson:1.2.0'
 	providedCompile 'javax.servlet:servlet-api:2.5'
 }
 
